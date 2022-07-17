@@ -1,4 +1,4 @@
-<h1 align="center">🐍 PyScript 🐍</h1>
+<h1 align="center" style="font-size: 5rem">🐍 PyScript 🐍</h1>
 <img src="https://pyscript.net/assets/images/pyscript-sticker-black.svg">
 <h2 align="center"> Run Python in your HTML</h2>
 
