@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <title>PyScript</title>
+
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <py-env>
+        - numpy
+        - matplotlib
+        - paths :
+            - ./main.py
+    </py-env>
+</head>
+
+<body>
+    <h1 class="heading">Python Code :- </h1>
+
+    <div id="plot"></div>
+    <div id="plot"></div>
+    <py-script output="plot">
+        import matplotlib.pyplot as plt
+        from main import make_x_and_y, printHello
+
+        x, y = make_x_and_y(n=1000)
+
+        fig, ax = plt.subplots()
+        ax.scatter(x, y)
+        fig
+
+        printHello("Hi, I'm hello function")
+    </py-script>
+
+</body>
+
+</html>
