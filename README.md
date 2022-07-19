@@ -1,5 +1,5 @@
 <h1 align="center">🐍 PyScript 🐍</h1>
-<img height="150rem" src="https://pyscript.net/assets/images/pyscript-sticker-black.svg">
+<img src="https://pyscript.net/assets/images/pyscript-sticker-black.svg">
 <h2 align="center"> Run Python in your HTML</h2>
 
 Python introduce a new tool and that's name is **`PyScript`**, which I explored and that is incredible. This may be tricky on first time but ***`PyScript's`*** team organized so well, anyone can explore it by self, use it and explore lots of things. I must say python did a great thing to introduce us a PyScript because this tool gives us a great functionality, we can add logic between the HTML code now. This is very easy to adopt, and you can start your work so quickly. I think this new tech will boom the industry it is very awesome for those who only wants to stay in  **`Python env`** although they will definitely gonna love this. I like to share my thoughts on this new technology. #ThankYou ***`Python.org`*** who got this for us a brand new twisted tech for future, I must say these will be the next future into the tech industry. I'm definitely gonna use it from now.  
