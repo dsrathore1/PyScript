@@ -180,7 +180,7 @@ You could try changing the code above to explore and play with PyScript yourself
 
 ***
 
-### Reference 📔
+### References 📔
 
 1. You can check their GitHub repo (open source) by click on this link 👉 **[Click Me](https://github.com/pyscript/pyscript/blob/main/docs/tutorials/getting-started.md)**
 
