@@ -12,33 +12,30 @@
 
     <!-- Local Style Sheet -->
     <link rel="stylesheet" href="./style.css">
-    
+
     <py-env>
-        - numpy
-        - matplotlib
         - paths :
-        - ./main.py
+            - ./data.py
     </py-env>
     <title>PyScript</title>
 </head>
 
 <body>
     <h1 class="heading">Python Code :- </h1>
-
-    <div id="plot"></div>
-    <div id="plot"></div>
-    <py-script output="plot">
-        import matplotlib.pyplot as plt
-        from main import make_x_and_y, printHello
-
-        x, y = make_x_and_y(n=1000)
-
-        fig, ax = plt.subplots()
-        ax.scatter(x, y)
-        fig
-
-        printHello("Hi, I'm hello function")
+    <py-script>
+        from data import *
+        namePrinter("David")
     </py-script>
+
+    <py-script class="print">
+        print("Hello Brother")
+    </py-script>
+
+    <py-script>
+        table(3)
+    </py-script>
+<div class="numberTable"></div>
+<script src="./main.js"></script>
 
 </body>
 

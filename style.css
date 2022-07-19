@@ -19,3 +19,7 @@
     flex-direction: column;
     text-align: start;
 }
+
+.print{
+    font-size: 4rem;
+}
