@@ -30,7 +30,7 @@ Add this line between **`Body Tag`**
 ....
 ```
 
-#### ***My CODE*** ;) :-
+#### ***My CODE*** 😉 :-
 
 ```html
 <!DOCTYPE html>
@@ -74,7 +74,7 @@ You can operate code from different python file by adding some env path
 
 #### ***Syntax*** 👩‍💻:-
 
-#### Python File
+#### Python File 👨‍💻
 ```python
 def <function_name>:
     <---code-->
@@ -82,7 +82,7 @@ def <function_name>:
 print("Something")
 ```
 
-#### HTML File
+#### HTML File 👩‍💻
 
 ```html
 <html>
